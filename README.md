@@ -11,8 +11,9 @@ This repo uses the [LangChain Documentation](https://langchain.readthedocs.io/en
 Run the following command to download html for a given website. Replace `https://langchain.readthedocs.io/en/latest/` with a URL to your website.
 
 ```shell
-wget -r -A.html https://langchain.readthedocs.io/en/latest/
+wget -r -A.html https://developers.google.com/google-ads/scripts/docs/
 ```
+Invoke-WebRequest -Uri https://developers.google.com/google-ads/scripts/docs/ -OutFile output.html
 
 ## Ingest data
 
